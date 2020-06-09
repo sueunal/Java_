@@ -31,7 +31,6 @@ class ConstructExample{
 ### this()는 같은 클래스 내에서 서로 다른 생성자를 호출할 때 쓰인다.
 ConstructExample(String a){생략}에서 this(1)를 사용하는 부분이 있는데 
 여기서는 자기자신이 아닌 int 형을 매개변수로 받는 ConstructExample(int B){생략}을 호출하는 것 이다.
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sueunal/Java/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### this.은 public void setX(int x){this.x = x;}의
 - global 변수인 int x와 매개변수로 받은 x를 구분지어주기 위하여 사용한다.
