@@ -2,7 +2,7 @@
 
 
 
-### this()와 this.의 차이
+### this()와 this는 다르다
 
 
 ```markdown
@@ -35,7 +35,7 @@ ConstructExample(String a){생략}에서 this(1)를 사용하는 부분이 있�
 
 
 
-### this.은 x 를 구분지어주기 위하여 사용한다.
+### this은 x 를 구분지어주기 위하여 사용한다.
 
 **public void setX(int x){
 this.x = x;
@@ -44,7 +44,7 @@ this.x = x;
 의 매소드의 매개변수로 받은 int x를 글로버 변수 int x와 구분지어주기 위하여 사용한다.
 즉 SetX(int x)의 매소드에서 **this.x는 글로벌 변수 x이다.**
 
-### 만약 구분 지어줄 필요가 없다면 this.를 사용할 이유가 있을까?
+### 만약 구분 지어줄 필요가 없다면 this를 사용할 이유가 있을까?
 this.는 **구분을 지어주기 위한 것**이라고 설명했다.
 답을 먼저 말하자면
 당연히 없다.
